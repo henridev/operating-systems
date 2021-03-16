@@ -1,0 +1,1 @@
+﻿while(1) { Get-Process | sort -Descending cpu | select -f 25 | ft -a; sleep 1; cls }

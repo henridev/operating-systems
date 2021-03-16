@@ -1,0 +1,1 @@
+﻿Get-Process | ? {$_.SI -eq (Get-Process -PID $PID).SessionId}
