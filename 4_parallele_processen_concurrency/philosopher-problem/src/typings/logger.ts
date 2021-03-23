@@ -1,0 +1,9 @@
+export enum Action {
+    CAN_EAT = 'CAN_EAT 😊',
+    NO_EATING = 'NO_EATING 🥺',
+    EATING = 'EATING 🍔',
+    PICKUP_FORK_ATTEMPT = 'PICKUP_FORK_ATTEMPT ⏳',
+    PICKUP_FREE = 'PICKUP_FREE ✅',
+    PICKUP_FROM = 'PICKUP_FROM 🔄',
+    FORK_HELD = 'FORK_HELD ❌',
+}
